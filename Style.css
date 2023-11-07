@@ -1,0 +1,53 @@
+
+.calculadora {
+ margin-left: 30%;
+ top: 50%;
+ width: 450px;
+ background-color: plum;
+ border-radius: 10%;
+ height: 50vh;
+ align-items: center;
+ transform: translateY(50%);
+}
+
+.operando {
+ padding-top: 15%;
+ padding-left: 30%;
+ padding-bottom: 5%;
+}
+
+.operando2 {
+  padding-left: 30%;
+  margin-bottom: 10px;
+}
+
+
+.operador {
+  padding-left: 30%;
+  display: flex;
+  padding-bottom: 5%;
+}
+
+.operador button {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+.operador button:hover {
+  background-color: purple;
+}
+
+.resultado {
+  text-align: center;
+}
+
+.error {
+  color: rgb(149, 0, 255);
+  display: none;
+}
